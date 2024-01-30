@@ -1,0 +1,21 @@
+body {
+  width: 150px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #eee;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #555;
+  color: white;
+}
+
+button:hover {
+  background-color: #ccc;
+}
